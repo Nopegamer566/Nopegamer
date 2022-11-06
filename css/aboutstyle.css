@@ -91,23 +91,36 @@ header{
 	width: 100%;
 	height: auto;
 	display: block;
-	margin:auto;
+	margin: auto;
+	transition: 0.6 ease;
+}
+.image-section img:hover{
+	width: 120%;
+	height: auto;
+	display: block;
+	margin: auto;
 }
 .content-section .title{
 	text-align: center;
 	font-size: 19px;
 }
-.content-section .content .button{
-	text-align: center;
+.button{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: transparent;
 }
-.content-section .content .button a{
-	border: 1px solid #fff;
+.btn{
+	background-color: transparent;
 	padding: 10px 30px;
 	color: #fff;
 	text-decoration: none;
 	transition: 0.6s ease;
+
 }
-.content-section .content .button a:hover{
+
+.btn:hover{
 	background-color: #fff;
 	color: #000;
 }
