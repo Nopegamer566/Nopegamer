@@ -94,7 +94,7 @@ header{
 	margin: auto;
 	transition: 0.6 ease;
 }
-.img:hover {
+.image-section img:hover {
 	height: 125%;
 	width: 125%;
 
