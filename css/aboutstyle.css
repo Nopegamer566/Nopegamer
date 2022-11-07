@@ -82,23 +82,7 @@ header{
 	display: block;
 	margin:auto;
 }
-.image-section{
-	float:none;
-	width:100%;
-	
-}
-.image-section img{
-	width: 100%;
-	height: auto;
-	display: block;
-	margin: auto;
-	transition: 0.6 ease;
-}
-.image-section img:hover {
-	height: 125%;
-	width: 125%;
 
-}
 .content-section .title{
 	text-align: center;
 	font-size: 19px;
