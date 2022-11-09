@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    top: 40%;
+    left: 50%;
+}
+
+.cards {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 2rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    box-shadow: 5px 5px 20px gray;
+    flex-direction: column;
+    transition: .5s all ease;
+
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 1rem;
+    transition: .5s all ease;
+
+}
+
+.cards>div {
+    opacity: 0;
+    transition: .5s all ease;
+    pointer-events: none;
+
+}
+
+.cards:hover>div {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.cards:hover {
+    height: 550px;
+}
+
+.cards:hover>img {
+    transform: scale(1.2);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social>div {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.msg {
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.msg a {
+    background-color: rgb(62, 62, 202);
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 1rem 1.2rem;
+    border-radius: 8px;
+}
+
+.msg:hover {
+    transform: scale(1.2);
+}
+
+.msg .message {
+    background-color: transparent;
+    color: black;
+    border: 2px solid gray;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../1.png);
+    height: 123vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+    font-family: Century Gothic;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-family: Century Gothic;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    font-family: Century Gothic;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+    font-family: Century Gothic;
+}
+
+.logo img {
+    float: left;
+    width: 120px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ins {
+    position: absolute;
+    top: 105%;
+    left: 90%;
+    box-shadow: #000 2px;
+    border: transparent 1px solid;
+    text-decoration: none;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+    background-color: #fff;
+	color: #000;
+    border-radius: 2rem;
+}
+
+.ins:hover{
+    color: blue;
+}
+
+
+
+

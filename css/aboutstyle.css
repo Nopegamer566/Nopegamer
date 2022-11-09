@@ -1,0 +1,178 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.container{
+	width: 70%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	float: left;
+	width: 45%;
+}
+.image-section{
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	float: right;
+	width: 20%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.content-section .content p{
+	stroke:#000;
+	stroke-width: #000 5px;
+	color: #989be0;
+	margin-top: 10px;
+	font-family: Century Gothic;
+	font-size: 14px;
+	line-height: 1;
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #ffffff;
+	color: #000;
+}
+
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.button{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: transparent;
+}
+.btn{
+	background-color: transparent;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.content-section .social{
+	text-align: center;
+}
+
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 120px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+	
+.image-section {
+	float: none;
+	width: 250px;
+
+}
+
+.image-section img {
+	width: 90%;
+	height: auto;
+	display: block;
+	margin: auto;
+	transition: 0.6s ease;
+}
+
+.image-section img:hover {
+	transform: scale(1.3);
+
+}
